@@ -15,6 +15,25 @@
             background-size: cover;
             height: 100vh;
         }
+        
+        .min {
+            background-color: azure;
+            padding: 5px;
+            margin: 10px;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        #minMaxTemp {
+            margin: 0 auto;
+            max-width: 80%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
     </style>
 </head>
 
@@ -35,7 +54,18 @@
             <h1 id="weather" class="lead">Clouds</h1>
         </div>
     </div>
+    <section id="minMaxTemp">
+
+        </div>
+
+
+    </section>
+    <div class="min"> 
+        <img src="" >
+        <span id="flag"></span> 
+    </div> 
     <script src="app.js"></script>
+
 </body>
 
 </html>
